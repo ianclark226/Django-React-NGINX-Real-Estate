@@ -44,7 +44,7 @@ THIRD_PARTY_APPS = [
     "phonenumber_field",
     "djoser",
     "rest_framework_simplejwt",
-    
+    "djcelery_email",
 ]
 
 LOCAL_APPS = [
@@ -54,7 +54,6 @@ LOCAL_APPS = [
     "apps.ratings",
     "apps.properties",
     "apps.enquiries",
-    
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

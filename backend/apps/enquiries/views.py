@@ -7,6 +7,7 @@ from real_estate.settings.development import DEFAULT_FROM_EMAIL
 
 from .models import Enquiry
 
+
 @api_view(["POST"])
 @permission_classes([permissions.AllowAny])
 def send_enquiry_email(request):
